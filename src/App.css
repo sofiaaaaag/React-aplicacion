@@ -1,0 +1,80 @@
+body{
+    background-color:rgb(255, 236, 239) ;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    color: rgb(202, 99, 116);
+}
+.input{
+    width: 300px;
+    height: 30px;
+    border-radius: 5px;
+    border: 1px solid rgb(202, 99, 116);
+    margin-top: 10px;
+}
+button{
+    width: 100px;
+    height: 30px;
+    border-radius: 5px;
+    border: 1px solid rgb(202, 99, 116);
+    margin-top: 10px;
+    background-color: rgb(202, 99, 116);
+    color: white;
+    transition: 0.3s;
+}
+button:hover{
+    background-color: rgb(255, 236, 239);
+    color: rgb(202, 99, 116);
+    transform: scale(1.1);
+}
+.container1{
+    width: 500px;
+    height: 300px;
+    border-radius: 10px;
+    border: none;
+    background-color: white;
+    box-shadow: 0px 0px 10px silver;
+    
+
+}
+.container2{
+    width: 500px;
+    height: 300px;
+    border-radius: 10px;
+    border: none;
+    background-color: white;
+     box-shadow: 0px 0px 10px silver;
+
+}
+.container3{
+    width: 500px;
+    height: 300px;
+    border-radius: 10px;
+    border: none;
+    background-color: white;
+     box-shadow: 0px 0px 10px silver;
+}
+.container4{
+    width: 500px;
+    height: 300px;
+    border-radius: 10px;
+    border: none;
+    background-color: white;
+     box-shadow: 0px 0px 10px silver;
+}
+.container{
+ display: grid;
+  grid-template-columns: 1fr 1fr; 
+  grid-template-rows: auto auto; 
+  gap: 20px;
+  max-width: 1000px;
+  margin: auto;
+  padding: 20px;
+}
+.container5{
+    width: 1000px;
+    height: auto;
+    border-radius: 10px;
+    background-color: white;
+    padding: 3%;
+    margin: auto;
+}

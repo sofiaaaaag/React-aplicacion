@@ -1,4 +1,4 @@
-
+{/*aca guardo el estado resultado para poder usarlo en los demas archivos*/}
 import { createContext, useState } from "react";
 
 export const AuthContext = createContext();

@@ -71,10 +71,18 @@ button:hover{
   padding: 20px;
 }
 .container5{
-    width: 1000px;
-    height: auto;
+    width: 955px;
+    height: 300px;
     border-radius: 10px;
     background-color: white;
-    padding: 3%;
     margin: auto;
+    box-shadow: 0px 0px 10px silver;
+    padding: 30px;
+    align-items: center;
+}
+.boton-asesorar{
+    color: white         ;
+}
+.boton-asesorar:hover{
+    color: rgb(202, 99, 116);
 }
